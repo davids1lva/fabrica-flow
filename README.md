@@ -199,7 +199,7 @@ Build React/TypeScript validado. Ecrã de login inspecionado no navegador. Na de
 
 **Limites da validação:** não foi executado um teste com 100 tablets, nem um ensaio num servidor PostgreSQL externo. A arquitetura inclui pool, índices, transações, SSE e unicidade ao nível da base de dados, mas isto não equivale a uma certificação de capacidade ou prontidão de produção. O modo PGlite serializa transações e não valida concorrência real de múltiplos processos PostgreSQL. Antes do uso na empresa faltam teste de carga, piloto com operadores, backups/restauro e revisão do alojamento.
 
-O projeto é entregue para execução local e posterior instalação. Não foi publicado um serviço online nesta entrega.
+Demonstração pública: https://davids1lva.github.io/fabrica-flow/ — abre diretamente no painel administrativo e utiliza apenas dados fictícios guardados no navegador. A instalação com backend e base de dados reais continua a seguir as instruções acima.
 
 ## Demonstração pública do portefólio
 
