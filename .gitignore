@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+*.log
+.test-data/
+.env.*
+!.env.example
+admin.json
+*.sql.gz
+*.dump
+.sites-runtime/
+!.env.public
